@@ -1,0 +1,8 @@
+{
+    "data_path": "data/data.csv",
+    "train_days": 24,
+    "model_type": "fft",
+    "context_length": 1440,
+    "target_length": 10,
+    "plot": true
+}
