@@ -1,6 +1,7 @@
 *.csv
 scratch/
 *.pyc
+.vscode
 results/2024_10_22_04_50_13
 results/2024_10_22_04_52_50
 results/2024_10_22_04_53_30
