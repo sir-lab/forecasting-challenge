@@ -37,7 +37,7 @@ We have written an [example script](https://github.com/sir-lab/forecasting-chall
 Run the code using the command below to quickly train an FFT model for each time series.
 
 ```bash
-python python src/darts_experiments.py --model_type fft
+python src/darts_experiments.py --model_type fft
 ```
 
 We have included a few example models in the script that run quickly on CPU, but it is easy to extend to use more models and utilize a GPU. 
