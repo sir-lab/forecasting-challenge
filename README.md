@@ -25,7 +25,7 @@ This is a cleaned version of the data used in our 2025 data release. Should you 
 
 ## Quick start
 
-See the quick start notebook for an introduction to the data format and how to load and plot the data.
+See the [quick start notebook](https://github.com/sir-lab/forecasting-challenge/blob/main/src/quickstart.ipynb) for an introduction to the data format and how to load and plot the data.
 
 
 ## Forecasting
