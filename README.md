@@ -61,7 +61,7 @@ Note that we have uploaded some example results CSV files in `results/` to demon
 
 Your submissions for evaluation in this challenge should be presented as described below. For more details, refer to the example predictions Pandas DataFrame shown in the [results notebook](https://github.com/sir-lab/forecasting-challenge/blob/main/src/evaluate_results.ipynb).
 
-You should submit 3 files for 3 different forecast horizons (1 day, 3 days, 7 days). You do not have to use the same model to produce the forecasts for each file.
+You should submit 3 files for 3 different forecast horizons (1 day, 3 days, 7 days) and package them all in a `predictions_[yourgroupnamehere].zip` file. You do not have to use the same model to produce the forecasts for each file.
 1. `df_predictions_1d.csv` - 1 day (time from 2678400 to 2764740, inclusive) with df.shape (1440, 241)
 2. `df_predictions_3d.csv` - 3 days (time from 2678400 to 2937540, inclusive) with df.shape (4320, 241)
 3. `df_predictions_7d.csv` - 7 days (time from 2678400 to 3283140, inclusive) with df.shape (10080, 241)
