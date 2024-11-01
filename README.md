@@ -4,7 +4,7 @@ This readme describes the instructions for the Huawei Time Series Forecasting Ch
 
 ## Setup
 
-To set up the environment, clone the repository and run:
+To set up the environment, run:
 
 ```bash
 conda env create -f environment.yml
