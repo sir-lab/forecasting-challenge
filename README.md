@@ -55,6 +55,8 @@ Your results will be evaluated by SIR Lab on a held-out test dataset of 7 days. 
 
 For more details on how this will be computed, see the [results notebook](https://github.com/sir-lab/forecasting-challenge/blob/main/src/evaluate_results.ipynb).
 
+Note that we have uploaded some example results CSV files in `results/` to demonstrate how metrics are computed. These results were computed using FFT models of different configurations (different trendline and keeping different numbers of frequencies). 
+
 ### Submission format
 
 Your submissions for evaluation in this challenge should be presented as described below. For more details, refer to the example predictions Pandas DataFrame shown in the [results notebook](https://github.com/sir-lab/forecasting-challenge/blob/main/src/evaluate_results.ipynb).
