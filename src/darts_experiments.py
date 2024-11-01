@@ -13,7 +13,7 @@ def parse_args():
     parser = argparse.ArgumentParser(description="Train time series models and evaluate performance.")
     parser.add_argument('--data_path', type=str, default='data/data.csv', help='Path to the dataset CSV file')
     parser.add_argument('--train_days', type=int, default=24, help='Number of days to use for training')
-    parser.add_argument('--model_type', type=str, default='linear', help='Type of model to use (e.g., linear)')
+    parser.add_argument('--model_type', type=str, default='fft', help='Type of model to use (e.g., linear)')
     parser.add_argument('--context_length', type=int, default=1440, help='Context length for the model')
     parser.add_argument('--target_length', type=int, default=10, help='Target length for the model')
     parser.add_argument('--plot', type=bool, default=True, help='Whether to plot predictions or not')
