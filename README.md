@@ -1,6 +1,6 @@
 # Huawei Cloud Time Series Forecasting Challenge
 
-This readme describes the instructions for the Huawei Time Series Forecasting Challenge for the Edinburgh EPSRC CDT in Machine Learning Systems.
+This readme describes the instructions for the Huawei Time Series Forecasting Challenge for the University of Edinburgh EPSRC CDT in Machine Learning Systems.
 
 ## Setup
 
@@ -20,7 +20,7 @@ conda activate forecasting
 
 Download the dataset from [this link](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/benchmarking_preview/data.7z), unzip it, and place `data.csv` in the `data` folder.
 
-This is a cleaned version of the data used in our 2025 data release. Should you find it helpful to train on more data, you can download from our [2023 and 2025 data releases](https://github.com/sir-lab/data-release).
+This is a cleaned version of the data used in our 2025 data release. Should you find it helpful to train on more data, you can download from our [2023](https://github.com/sir-lab/data-release/blob/main/README_data_release_2023.md) and [2025](https://github.com/sir-lab/data-release/blob/main/README_data_release_2025.md) data releases.
 
 
 ## Quick start
@@ -44,7 +44,7 @@ We have included a few example models in the script that run quickly on CPU, but
 
 You are by no means required to use any of the example code! It is just there to get you started.
 
-## PyTorch forecasting code
+### PyTorch forecasting code
 
 For a PyTorch implementation, see the [linear forecasting repository](https://github.com/sir-lab/linear-forecasting/tree/main).
 
