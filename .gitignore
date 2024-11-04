@@ -1,4 +1,4 @@
-*.csv
+data/*.csv
 scratch/
 *.pyc
 .vscode
