@@ -18,7 +18,7 @@ conda activate forecasting
 
 ## Downloading the Data
 
-Download the dataset from [this link](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/benchmarking_preview/data.7z), extract it, and place `data.csv` in the `data` folder.
+Download the dataset from [this link](https://drive.google.com/file/d/19aI15c13zJ6RzQsOs-JL-JhJ1H67IRfD/view?usp=drive_link), extract it, and place `data.csv` in the `data` folder.
 
 This is a cleaned version of the data used in our 2025 data release. Should you find it helpful to train on more data, you can download from our [2023](https://github.com/sir-lab/data-release/blob/main/README_data_release_2023.md) and [2025](https://github.com/sir-lab/data-release/blob/main/README_data_release_2025.md) data releases.
 
